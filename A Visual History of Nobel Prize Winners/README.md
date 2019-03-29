@@ -17,27 +17,18 @@ It would help if you know
 You can set up this project locally or using launchbinder  .
 ## Getting set up locally
 1. Clone the repository
-
 You can do so by executing the following command in your terminal:
-
 git clone ...
-
 Alternatively, you can download the zip file of the repository at the top of the main page of the repository.
 2. Download Anaconda (if needed)
-
 If you do not already have the Anaconda distribution of Python 3, go download it.
 3. Create your conda environment
-
 Navigate to the directory musical-data-r and install the required packages in a new conda environment:
-
 conda env create -f environment.yml
-
 This will create a new environment called musical-data-r. To activate the environment, execute:
 source activate musical-data-r
 4. Open the Jupyter Notebook
-
 In the terminal, execute jupyter notebook.
-
 Next, open the notebook musical-data-r.ipynb and you are ready to read about the project.
 
 
