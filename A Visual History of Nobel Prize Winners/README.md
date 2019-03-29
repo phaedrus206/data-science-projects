@@ -5,3 +5,30 @@ The Nobel Prize is perhaps the worlds most well known scientific award. Except f
 
 ## Note
 If the Jupyter notebooks don't render correctly, then copy the URL into https://nbviewer.jupyter.org/
+
+
+## Prerequisites
+It would help if you know
+1. the basics of R
+2. 	a bit about Jupyter Notebooks
+3. 	a bit about the tidyverse package
+4. 	using the terminal/shell
+## Getting set up
+You can set up this project locally or using launchbinder  .
+## Getting set up locally
+1. Clone the repository
+You can do so by executing the following command in your terminal:
+git clone ...
+Alternatively, you can download the zip file of the repository at the top of the main page of the repository.
+2. Download Anaconda (if needed)
+If you do not already have the Anaconda distribution of Python 3, go download it.
+3. Create your conda environment
+Navigate to the directory musical-data-r and install the required packages in a new conda environment:
+conda env create -f environment.yml
+This will create a new environment called musical-data-r. To activate the environment, execute:
+source activate musical-data-r
+4. Open the Jupyter Notebook
+In the terminal, execute jupyter notebook.
+Next, open the notebook musical-data-r.ipynb and you are ready to read about the project.
+
+
